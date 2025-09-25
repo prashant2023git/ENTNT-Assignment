@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
+    "dexie": "^4.2.0",
     "lucide-react": "^0.544.0",
     "msw": "^2.11.3",
     "react": "^19.1.1",
