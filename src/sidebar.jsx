@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from './assets/logo.png';
 const Sidebar = ({ activeLink }) => {
   const navItems = [
     { name: 'Dashboard', icon: 'M10 3v18l9-9z', to: '/' },
@@ -35,7 +35,8 @@ const Sidebar = ({ activeLink }) => {
     // Unified dark background color used in the screenshot: bg-gray-900 is often a good match
     <div className="flex flex-col h-screen w-64 bg-gray-900 text-white fixed top-0 left-0 z-50">
       <div className="p-6 border-b border-gray-800">
-        <h1 className="text-2xl font-bold text-indigo-400 tracking-wider">TalentFlow</h1>
+        {/* <h1 className="text-2xl font-bold text-indigo-400 tracking-wider">TalentFlow</h1> */}
+        <img src={logo} alt="TalentFlow" className="w-60 h-20" />
       </div>
 
       <nav className="flex-grow py-4 space-y-2">

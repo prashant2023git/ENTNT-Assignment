@@ -8,9 +8,9 @@ const DashboardPage = () => {
   ];
 
   const recentActivity = [
-    { name: 'Liam Carter', action: 'applied for', detail: 'Software Engineer', time: '2 hours ago', tag: 'New Application', tagColor: 'bg-green-600' },
-    { name: 'Chloe Bennett', action: 'completed the', actionPrefix: 'has', detail: 'coding assessment', time: '5 hours ago', tag: 'Assessment', tagColor: 'bg-indigo-600' },
-    { name: 'Interview with', action: 'Ethan Harper', detail: 'scheduled', time: 'Yesterday', tag: 'Interview', tagColor: 'bg-purple-600' },
+    { name: 'Ujjwal Verma', action: 'applied for', detail: 'Software Engineer', time: '2 hours ago', tag: 'New Application', tagColor: 'bg-green-600', avatar:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxybaUaqtLxUbBoOU5L89nfEiq9YhGphPINg&s' },
+    { name: 'Devanshi Saini', action: 'completed the', actionPrefix: 'has', detail: 'coding assessment', time: '5 hours ago', tag: 'Assessment', tagColor: 'bg-indigo-600' , avatar:'https://img.freepik.com/premium-photo/portrait-young-indian-woman-happy-with-internship-human-resources-opportunity-mission-vision-company-values-goals-face-headshot-gen-z-person-with-hr-job-about-us-faq_590464-134290.jpg' },
+    { name: 'Utkarsh Singh', action: 'Ethan Harper', detail: 'scheduled', time: 'Yesterday', tag: 'Interview', tagColor: 'bg-purple-600',avatar: 'https://www.shutterstock.com/image-photo/head-shot-portrait-millennial-30s-260nw-2555494759.jpg' },
   ];
 
   const StatCard = ({ title, value, link, icon }) => (
