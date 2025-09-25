@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 
 async function prepareMocks() {
-  if (import.meta.env?.MODE === 'development') {
+  if (import.meta.env?.MODE === 'production') {
     const { worker } = await import('./mocks/browser')
     await worker.start({ onUnhandledRequest: 'bypass' })
   }
